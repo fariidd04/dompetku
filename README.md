@@ -43,7 +43,7 @@
 
 | Tampilan utama dengan daftar task | Filter Selesai aktif | 
 |---|---|---|
-| ![Login](./assets/homeee.jpg) | ![Register](./assets/homee2.jpg) |
+| ![Login](./assets/images/homeee.jpg) | ![Register](./assets/images/homee2.jpg) |
 
 ---
 
@@ -54,30 +54,7 @@
 - React Native CLI atau Expo CLI
 - Android Studio / Xcode (untuk emulator)
 
-### Langkah
-
-**1. Buat project baru (jika belum ada)**
-```bash
-npx react-native init DompetKu
-# atau pakai Expo:
-npx create-expo-app DompetKu
-```
-
-**2. Copy file ke dalam project**
-```bash
-cp index.tsx ./DompetKu/
-```
-
-**3. Daftarkan di App.js**
-```js
-import DompetKu from './index';
-
-export default function App() {
-  return <DompetKu />;
-}
-```
-
-**4. Jalankan aplikasi**
+### Langkah Jalankan aplikasi
 
 ```bash
 # 1. Clone repository
@@ -99,8 +76,8 @@ npx expo start
 ```
 ┌─────────────────────────────────────┐
 │  💳 SALDO SAAT INI                  │  ← Header biru
-│  Rp 0                          │
-│  [↑ Pemasukan Rp X] [↓ Keluar Rp Y]│
+│  Rp 0                                │
+│  [↑ Pemasukan Rp X] [↓ Keluar Rp Y]   │
 ├─────────────────────────────────────┤
 │  + Tambah Transaksi                 │  ← Form input
 │  Deskripsi: [___________________]   │
@@ -111,7 +88,7 @@ npx expo start
 │  ┌───────────────────────────────┐  │
 │  │ ↑ Uang Bulanan    +Rp 2.00.000 ✕ │  │  ← Nominal HIJAU, tombol hapus ✕
 │  ├───────────────────────────────┤  │
-│  │ ↓ Makanan   -Rp 30.000  ✕ │  │  ← Nominal MERAH, tombol hapus ✕
+│  │ ↓ Makanan   -Rp 30.000  ✕     │  │  ← Nominal MERAH, tombol hapus ✕
 │  └───────────────────────────────┘  │
 └─────────────────────────────────────┘
 ```
