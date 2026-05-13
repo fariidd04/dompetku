@@ -41,9 +41,9 @@
 
 ## 📸 Screenshot
 
-| Tampilan utama dengan daftar task | Filter Selesai aktif | 
-|---|---|---|
-| ![Login](./assets/images/homeee.jpg) | ![Register](./assets/images/homee2.jpg) |
+| Tampilan utama | Tampilan Update Trx | 
+|---|---|
+| ![Home](./assets/images/homee.jpg) | ![Home2](./assets/images/homee2.jpg) |
 
 ---
 
@@ -77,7 +77,7 @@ npx expo start
 ┌─────────────────────────────────────┐
 │  💳 SALDO SAAT INI                  │  ← Header biru
 │  Rp 0                                │
-│  [↑ Pemasukan Rp X] [↓ Keluar Rp Y]   │
+│  [↑ Pemasukan Rp X] [↓ Keluar Rp Y]  │
 ├─────────────────────────────────────┤
 │  + Tambah Transaksi                 │  ← Form input
 │  Deskripsi: [___________________]   │
@@ -86,7 +86,7 @@ npx expo start
 ├─────────────────────────────────────┤
 │  🕐 RIWAYAT TRANSAKSI   🗑 Reset    │  ← Reset Semua (muncul jika ada data)
 │  ┌───────────────────────────────┐  │
-│  │ ↑ Uang Bulanan    +Rp 2.00.000 ✕ │  │  ← Nominal HIJAU, tombol hapus ✕
+│  │ ↑ Uang Bulanan    +Rp 2.00.000 ✕ │  ← Nominal HIJAU, tombol hapus ✕
 │  ├───────────────────────────────┤  │
 │  │ ↓ Makanan   -Rp 30.000  ✕     │  │  ← Nominal MERAH, tombol hapus ✕
 │  └───────────────────────────────┘  │
